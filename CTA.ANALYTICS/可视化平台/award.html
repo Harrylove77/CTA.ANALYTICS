@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>十年特别奖 · 全国期货实盘交易大赛 · 十年特别奖选手特征分析平台</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page-shell">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">CTA·ANALYTICS</span></a>
+    <button class="directory-toggle" type="button" aria-controls="module-directory" aria-expanded="false">
+      <span aria-hidden="true">☰</span><span>目录</span>
+    </button>
+    <nav id="module-directory" class="page-nav" aria-label="分析目录">
+      <div class="directory-group"><p>项目概况</p>
+        <a href="index.html"><span class="directory-icon" aria-hidden="true">◉</span>研究总览</a>
+        <a href="award.html" aria-current="page"><span class="directory-icon" aria-hidden="true">☆</span>十年特别奖专题</a>
+      </div>
+      <div class="directory-group"><p>选手画像</p>
+        <a href="players.html"><span class="directory-icon" aria-hidden="true">◎</span>选手综合画像</a>
+        <a href="single.html"><span class="directory-icon" aria-hidden="true">▥</span>指标分布</a>
+        <a href="cluster.html"><span class="directory-icon" aria-hidden="true">◇</span>多维人群</a>
+        <a href="style.html"><span class="directory-icon" aria-hidden="true">◫</span>交易风格</a>
+      </div>
+      <div class="directory-group"><p>成绩比较与检验</p>
+        <a href="rank.html"><span class="directory-icon" aria-hidden="true">≡</span>排名区间对比</a>
+        <a href="trend.html"><span class="directory-icon" aria-hidden="true">↗</span>历届表现趋势</a>
+        <a href="predict.html"><span class="directory-icon" aria-hidden="true">⊙</span>第 20 届预测评估</a>
+      </div>
+    </nav>
+  </aside>
+  <div class="page-body">
+    <main id="content">
+<section class="section" id="award">
+  <div class="sec-head">
+    <div>
+      <h2>十年特别奖选手特征</h2>
+      <p>以第 20 届收官十年特别奖榜首样本为研究对象，按特别奖名次分层，比较能同时关联到第 19、20 届账户的选手。</p>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    <article class="card">
+      <div class="card-head"><h3>两届累计净值均大于 1</h3><span class="hint">两届都有有效净值的样本</span></div>
+      <div id="cAwardStability" class="chart" style="height:270px"></div>
+    </article>
+    <article class="card">
+      <div class="card-head"><h3>前一届的交易与风控</h3><span class="hint">第 19 届组内样本中位数</span></div>
+      <div id="cAwardProfile" class="chart" style="height:270px"></div>
+    </article>
+  </div>
+  <article class="card">
+    <div class="card-head"><h3>分层对照</h3><span class="hint">前一届表现与两届持续性</span></div>
+    <div class="table-wrap"><table class="dtable" id="awardTable"></table></div>
+    <p id="awardFinding"></p>
+    <p class="hint">榜单按第 20 届收官结果分层，样本限于榜首 150 条及能关联的账户。两届净值大于 1 仅衡量这两届，分层差异也可能受组别构成影响。</p>
+  </article>
+</section>
+    </main>
+    <footer class="foot">
+      <div><b>CTA·ANALYTICS</b> · 全国期货实盘交易大赛十年特别奖选手特征分析平台</div>
+      <span class="team-credit">Harry and Qing</span>
+    </footer>
+  </div>
+</div>
+<script src="assets/js/echarts.min.js"></script>
+<script src="assets/data/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+

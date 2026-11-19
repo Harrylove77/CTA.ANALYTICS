@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>单项指标 · 全国期货实盘交易大赛 · 十年特别奖选手特征分析平台</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page-shell">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">CTA·ANALYTICS</span></a>
+    <button class="directory-toggle" type="button" aria-controls="module-directory" aria-expanded="false">
+      <span aria-hidden="true">☰</span><span>目录</span>
+    </button>
+    <nav id="module-directory" class="page-nav" aria-label="分析目录">
+      <div class="directory-group"><p>项目概况</p>
+        <a href="index.html"><span class="directory-icon" aria-hidden="true">◉</span>研究总览</a>
+        <a href="award.html"><span class="directory-icon" aria-hidden="true">☆</span>十年特别奖专题</a>
+      </div>
+      <div class="directory-group"><p>选手画像</p>
+        <a href="players.html"><span class="directory-icon" aria-hidden="true">◎</span>选手综合画像</a>
+        <a href="single.html" aria-current="page"><span class="directory-icon" aria-hidden="true">▥</span>指标分布</a>
+        <a href="cluster.html"><span class="directory-icon" aria-hidden="true">◇</span>多维人群</a>
+        <a href="style.html"><span class="directory-icon" aria-hidden="true">◫</span>交易风格</a>
+      </div>
+      <div class="directory-group"><p>成绩比较与检验</p>
+        <a href="rank.html"><span class="directory-icon" aria-hidden="true">≡</span>排名区间对比</a>
+        <a href="trend.html"><span class="directory-icon" aria-hidden="true">↗</span>历届表现趋势</a>
+        <a href="predict.html"><span class="directory-icon" aria-hidden="true">⊙</span>第 20 届预测评估</a>
+      </div>
+    </nav>
+  </aside>
+  <div class="page-body">
+    <main id="content">
+<section id="single" class="section">
+  <div class="sec-head">
+    <div>
+      <h2>单项指标画像</h2>
+      <p>对 6 项核心交易指标分别做分布统计、极值选手与参赛频次分层对比</p>
+    </div>
+  </div>
+
+  <div class="chips" id="metricChips"></div>
+
+  <div class="grid grid-3">
+    <div class="card span-2">
+      <div class="card-head">
+        <h3 id="singleTitle">—</h3><span class="hint" id="singleHint"></span>
+      </div>
+      <div class="chart" id="cSingleHist" style="height:330px"></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>统计摘要</h3><span class="hint" id="singleN"></span></div>
+      <div class="stat-list" id="singleStats"></div>
+    </div>
+  </div>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <div class="card-head"><h3>TOP 6 选手</h3><span class="hint">指标值最高</span></div>
+      <ol class="rank-list" id="singleTop"></ol>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>BOTTOM 6 选手</h3><span class="hint">指标值最低</span></div>
+      <ol class="rank-list low" id="singleBottom"></ol>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>参赛频次分层</h3><span class="hint">不同参赛经验下的指标均值</span></div>
+      <div class="chart" id="cSingleFreq" style="height:280px"></div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="foot">
+      <div><b>CTA·ANALYTICS</b> · 全国期货实盘交易大赛十年特别奖选手特征分析平台</div>
+      <span class="team-credit">Harry and Qing</span>
+    </footer>
+  </div>
+</div>
+<script src="assets/js/echarts.min.js"></script>
+<script src="assets/data/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+
