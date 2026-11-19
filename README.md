@@ -1,6 +1,6 @@
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/5c5b2411-cfeb-4814-adb3-9b63a90516cc" />
 
-[中文](#<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/e56b5ef7-4459-4698-bc5a-31dc9b9d0894" />
-十年特别奖选手特征分析) · [English](#english) · [界面预览 / Gallery]
+[中文](#十年特别奖选手特征分析) · [English](#english) · [界面预览 / Gallery](#界面预览--dashboard-gallery)
 # 十年特别奖选手特征分析
 
 这是一个基于期货日报公开赛事数据的金融大数据实践项目。我们围绕全国期货实盘交易大赛「十年特别奖」选手，分析他们的收益、交易表现和风险控制特征，并用第 11–19 届历史数据预测第 20 届组内综合名次。
@@ -11,12 +11,6 @@
 - **选手画像**：按昵称查询收益、风险和交易指标，查看历届账户明细。部分账户支持查看日度净值曲线。
 - **群体对比**：通过单项指标分布、多维聚类、交易风格和历届趋势，比较不同选手群体及排名区间。
 - **名次预测**：分别预测具体名次与五档名次区间，通过散点图、混淆矩阵和逐条明细对照官网实际名次。
-
-## 项目亮点
-
-- **跨届数据关联**：结合原有第 6–18 届历史明细与官网补采的第 19、20 届收官数据，按选手和组别匹配。第 20 届有 **379 条**记录可用于回顾性评估。
-- **同批样本比较**：在同一批评估记录上，具体名次的中位绝对误差从旧岭回归的 **1,099 名**降至 **678 名**。五档区间另行评估，同时展示命中率、宏平均 F1 和头部识别表现。
-- **离线浏览**：看板使用本地 ECharts 和预生成数据。下载项目后，双击 `可视化平台/index.html` 即可查看，重建数据时再使用 Python。
 
 [查看数据来源、评估口径与重建方式](./可视化平台/README.md)
 
@@ -32,12 +26,6 @@ This data analytics project studies participants in the Ten-Year Special Award o
 - **Trader profiles** — Search by nickname to explore returns, risk, and account history. Daily net asset value charts are available for accounts with daily records.
 - **Group comparisons** — Explore indicator distributions, clusters, trading styles, and trends across editions and rank groups.
 - **Rank forecasting** — Predict numerical ranks and five rank bands separately. Compare predictions with official results using a scatter plot, a confusion matrix, and a record-level table.
-
-### Highlights
-
-- **Cross-edition data** — The project combines historical records from editions 6–18 with official closing records from editions 19 and 20. The retrospective edition 20 evaluation covers **379 matched records**.
-- **Same-sample evaluation** — Median absolute rank error fell from **1,099 ranks** with ridge regression to **678 ranks** with the selected point forecast method. Rank-band results are reported separately.
-- **Offline dashboard** — Open `可视化平台/index.html` in a browser. Data and ECharts are bundled locally. Python is used to rebuild the dashboard data.
 
 [Data sources, evaluation details, and rebuild instructions (Chinese)](./可视化平台/README.md)
 
@@ -107,8 +95,8 @@ Compare returns and risk across within-edition, within-group rank cutoffs, inclu
 
 ### 历届表现趋势 · Trends by edition
 
-查看第 6–18 届样本的核心指标变化，并对照各届样本人数。  
-Track changes in key indicators and compare sample sizes across editions 6–18.
+查看第 6–19 届样本的核心指标变化，并对照各届样本人数。  
+Track changes in key indicators and compare sample sizes across editions 6–19.
 
 <img width="1440" height="1149" alt="trend" src="https://github.com/user-attachments/assets/e6082fdd-de16-4086-a1b3-46ba7e0fd096" />
 
