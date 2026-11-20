@@ -101,7 +101,8 @@ Compare returns and risk across within-edition, within-group rank cutoffs, inclu
 查看第 6–19 届样本的核心指标变化，并对照各届样本人数。  
 Track changes in key indicators and compare sample sizes across editions 6–19.
 
-<img width="1440" height="1149" alt="trend" src="https://github.com/user-attachments/assets/e6082fdd-de16-4086-a1b3-46ba7e0fd096" />
+<img width="1173" height="852" alt="image" src="https://github.com/user-attachments/assets/9484c7d5-3b77-433f-86c0-0eacfdec2e78" />
+
 
 
 ### 第 20 届预测评估 · Edition 20 forecasting and evaluation
