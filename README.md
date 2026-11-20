@@ -40,7 +40,10 @@ The nine full-page screenshots include charts and details below the first screen
 查看历史样本规模、各届采集记录和参赛组别构成，并进入特别奖专题或选手画像。  
 See dataset coverage, record counts by edition, and the competition group breakdown.
 
-<img width="1440" height="1987" alt="index" src="https://github.com/user-attachments/assets/8e37af9e-c713-4498-a063-8e867e7be509" />
+<img width="1916" height="917" alt="image" src="https://github.com/user-attachments/assets/d8f18aee-cd17-4dcc-b503-4ab3b31c6bd8" />
+<img width="1908" height="918" alt="image" src="https://github.com/user-attachments/assets/ac05b652-fc39-44ae-b4e7-8f70acde9d99" />
+
+
 
 
 ### 十年特别奖专题 · Ten-Year Special Award
