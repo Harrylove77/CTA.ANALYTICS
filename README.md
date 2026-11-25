@@ -109,5 +109,5 @@ Track changes in key indicators and compare sample sizes across editions 6–19.
 
 查看 379 条匹配记录的预测与实际名次、误差指标和五档区间混淆矩阵。  
 Compare predicted and official ranks for 379 matched records, with error metrics and a five-band confusion matrix.
+<img width="593" height="706" alt="image" src="https://github.com/user-attachments/assets/dd381b64-86e5-4e7c-96de-4af9001ccb62" />
 
-<img width="1433" height="1813" alt="predict" src="https://github.com/user-attachments/assets/2cad8574-e1b8-477b-8c1d-b9d9d0e4eec0" />
